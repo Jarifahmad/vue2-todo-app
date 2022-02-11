@@ -27,3 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## A little credit
+I got the progress bar idea from --> https://github.com/diogeneshas
