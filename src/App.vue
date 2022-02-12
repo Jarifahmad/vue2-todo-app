@@ -67,10 +67,10 @@ export default {
 		background: linear-gradient(to right, rgb(22, 34, 42), rgb(58, 96, 115));
 		color: #FFF;
 	}
-
-	#app {
+	/*refactor flex to grid*/
+	#app { 
 		display: flex;
-		flex: 1;
+		flex: 1; 
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
