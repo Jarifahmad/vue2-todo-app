@@ -24,6 +24,8 @@ export default {
 <style>
     .new-task {
         margin: 35px;
+        display: flex;
+        justify-content: center;
     }
 
     .form-element {

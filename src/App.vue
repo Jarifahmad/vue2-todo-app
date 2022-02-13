@@ -69,8 +69,7 @@ export default {
 	}
 	/*refactor flex to grid*/
 	#app { 
-		display: flex;
-		flex: 1; 
+		display: grid;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -78,6 +77,8 @@ export default {
 	}
 
 	#app h1 {
+		display: grid;
+		justify-content: center;
 		margin-bottom: 5px;
 		font-weight: 300;
 		font-size: 3rem;
