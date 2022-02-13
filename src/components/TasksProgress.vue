@@ -16,6 +16,7 @@ export default {
 <style>
  .tasks-progress {
      position: relative;
+     margin: auto;
      width: 80%;
      border: 1px solid #fff;
      color: #fff;

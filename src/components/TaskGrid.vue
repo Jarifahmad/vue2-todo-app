@@ -20,10 +20,13 @@ export default {
 </script>
 
 <style>
-    .task-grid {
-        display: flex;
+    .task-grid { /* refactor this to grid*/ 
+        display: grid;
         justify-content: center;
-        flex-wrap: wrap;
+        grid-row-gap: 10px;
+        grid-template-columns: auto auto auto;
+        position: relative;
+        bottom: 70px;
     }
     .task-grid .task {
         margin: 10px;

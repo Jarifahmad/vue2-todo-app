@@ -67,10 +67,9 @@ export default {
 		background: linear-gradient(to right, rgb(22, 34, 42), rgb(58, 96, 115));
 		color: #FFF;
 	}
-
-	#app {
-		display: flex;
-		flex: 1;
+	/*refactor flex to grid*/
+	#app { 
+		display: grid;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -78,6 +77,8 @@ export default {
 	}
 
 	#app h1 {
+		display: grid;
+		justify-content: center;
 		margin-bottom: 5px;
 		font-weight: 300;
 		font-size: 3rem;
